@@ -1,0 +1,45 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+.main-container
+{
+    border: 2px solid DeepSkyBlue;
+    width: 800px;
+    height: 500px;
+}
+.navbar {
+    width: 100%;
+    text-align: right;
+    overflow: auto;
+    margin-top: 30px;
+  }
+  .navbar-item{
+    padding-right: 40px;
+  }
+  .active-item
+  {
+    color: orange;
+  }
+ .body-container {
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #img{
+    float: right; 
+    border-left: 20px solid DeepSkyBlue;
+    border-bottom-left-radius: 120px; 
+  }
+  .button-default{
+    padding: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: DeepSkyBlue;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 3px;
+    margin-right: 20px;
+  }
+  .button-active
+  {
+    color: white;
+    background-color: DeepSkyBlue;
+  }
